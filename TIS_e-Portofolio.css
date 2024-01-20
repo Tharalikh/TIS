@@ -23,6 +23,10 @@ td:nth-child(n + 2) {
     border-bottom: none;
 } 
 
+tr {
+    background-color: lightblue;
+}
+
 img {
     max-width: 100%;
     height: auto;
