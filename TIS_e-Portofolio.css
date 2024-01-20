@@ -7,10 +7,17 @@ body {
     background-color: blue;
 }
 
+.imgbackground {
+    background-image: url('https://international.utm.my/erasmusplus/wp-content/uploads/sites/2/2023/03/coverimage.jpg');
+    background-size: 100% 100%; /* Make the background image cover the entire viewport */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px auto;
+    
 }
 
 td {
@@ -64,7 +71,7 @@ ul.left-align {
 }
 
 iframe {
-    width: 100%;
+    width: 320px;
     height: 225px;
     border: 0;
 }
