@@ -4,34 +4,34 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    background-color: blue;
+    background-color: maroon;
 }
 
 .imgbackground {
     background-image: url('https://international.utm.my/erasmusplus/wp-content/uploads/sites/2/2023/03/coverimage.jpg');
-    background-size: 100% 100%; /* Make the background image cover the entire viewport */
+    background-size: 100% 100%; 
     background-position: center bottom;
     background-repeat: no-repeat;
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
-    
 }
 
 td {
-    border: 1px solid black;
+    border: 1px;
     padding: 15px;
+    width: 50%;
 }
 
 td:nth-child(n + 2) {
-    display: block;
-    border-bottom: none;
+    border: 1px;
+    padding: 15px;
+    width: 50%;
 } 
 
 tr {
-    background-color: lightblue;
+    background-color: rosybrown;
 }
 
 img {
@@ -59,19 +59,45 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+p.About-me {
     text-align: justify;
-}
-
-p.left-align {
-    text-align: left;
-}
-
-ul.left-align {
-    text-align: left;
 }
 
 iframe {
     width: 320px;
     height: 225px;
     border: 0;
+}
+
+a {
+    display: inline-block;
+    padding: 8px 17px;
+    background-color: rgb(236, 38, 4);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(255, 44, 44);
+    color: black;
+}
+
+ul.link {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.link li {
+    display: inline-block;
+    padding: 0 0.75rem 0 0;
+}
+
+ul.link li:last-child {
+    padding-right: 0;
 }
